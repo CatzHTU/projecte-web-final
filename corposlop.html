@@ -11,13 +11,13 @@
 .logo {
     position: absolute;
     transition: all .2s;
-    height: 100px;
+    height: 150px;
     margin-left: -50px;
 }
 
 .logo:hover{
     transition: all .2s;
-    height: 125px;
+    height: 175px;
 }
 
 
@@ -29,18 +29,53 @@
 .owo {
     background-color: rgb(144, 200, 255);
     padding: 50px;
-    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGk1ZDBvc3BoZWY5ZWFzb2x0b3I1djBzbXVmeGVpNzdnNHh4bWk1MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/45jl4IgS3ju8wYCdpI/giphy.gif), linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(0, 183, 255, 1) 17%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 80%, rgba(195, 0, 255, 1) 92%, rgba(226, 130, 255, 0) 100%);
+    background-image: url(https://images.steamusercontent.com/ugc/2503520143608757735/3FB013039F6BAD2513C411AFED9D3368FF78079D/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false), linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(0, 183, 255, 1) 17%, rgb(0, 0, 0) 25%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 73%, rgba(195, 0, 255, 1) 100%);
     z-index: -1;
-    background-repeat:space;
+    background-repeat:no-repeat;
     background-position-x: center;
+    background-size:contain;
+}
+
+.toppp{
+    margin-top: -60px;
+}
+
+.navi {
+    margin-top: 10px;
+    background-color: rgb(99, 203, 255);
+}
+
+.bambi {
+    align-content: center;
+    text-align: center;
+}
+
+.kyukurarin{
+    background-color: aqua;
+    height: auto;
+    width: 120px;
+    color: black;
+    transition: all .2s;
+    font-weight: normal;
+    border-radius: 5px;
+}
+
+.kyukurarin:hover {
+    transition: all .2s;
+    font-weight: bolder;
+    background-color: rgb(0, 187, 187);
+    border-color: brown;
 }
 
 header {
     background-color: rgb(47, 241, 255);
+    text-shadow: -1px -1px #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
+    /* http://stackoverflow.com/questions/4919076/outline-effect-to-text */
 }
 
 body {
     background-color: rgb(225, 150, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
@@ -53,16 +88,66 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a {
+    font-weight: bolder;
+    color: rgb(134, 5, 255);
+    transition: all .2s;
+}
+
+a:hover{
+    transition: all .2s;
+    color: coral;
+    height: 110%;
+    width: 110%;
+}
+
+
 </style>
 <html lang="es">
     <meta charset="UTF-8">
-    <title>Ashcorp Repairs</title>
+    <title>NERV Repairs</title>
     <header>
         <div class="owo">
-            <img class="left logo" src="https://ci3.googleusercontent.com/mail-img-att/AGAZnRpef4UI2pACSs3TjVPXPWYlFui4OkyzcbNu37p075eOxddF_uwLK92UKiO9NZ-wmE6O25qsVWN1q6eUAmKtEL6EL0zNotuTGT4b6D_PFv-VaL-0_dLJ7fdVIyplpsfBiBUssXr09aUSWSNYC2Vh9J8xA9YlahhlsrE_Mw4_fFXAPFP_lCpYiLnaIOFQokF_8uXgiOXNo9_S5h_utbfQtnwrs8roctANugq0lPi0vM20Y_TFEj2CATUqfc9RFuJLuBRoyIes-y-NfjNbOFaQT4Ae8FdJAAmXGMe2QhJjES29ZnNcGTztxLYIS9SboETDL7NwnOjt_WzQaeyN3HY9fbBlV4PiN7m-PQvSQ-k_ELEJWohb3Box2Tv96z5w4a6urInOwDrkHpQw5SbbkYl4liB93P-WmvokI_eRUvy6c8_GRmkP7vcJHF-4NDoC0FknDpyrs_CSAoeazlOCpNsk1o5enaHzkxtMqfM7pygll0I72DWcUTDnNtpo7MXc7g_uhx7GCzmhfiy5V2VL4htQSmoa0aYC1MVk2_opLxJAjzFhTPL2ecZFdnGcwyxyg5bSiN4w-aamyHr6DgmFFqvJ0Xi0ciADe0rR8y2sBaJUqwXB1U4Jvln8-XVIVnPkK6Ws4a4ry1TUnSzBpDsICp0me9fgoeU37qXFug_KEQ3t5ULiGTO5oh9KoXJMIyNX1YmuQJPUB9YJCN5EygJCzZ6p17A0ugNO6wYHyP4c_3invEmvE7e8hNgyGfGTeBGq_8TJibE1VqeEjdQ1kx9lrGSYGhtIm0GKj-YogKQqGXDLftJ0MPijXVcp9bqqFm9hpioRwEAasm7AytdxDykqN5rb9d2FSr2eS9G-xVWJqKiReeAtGEkUFGRJPm2u00CXsmHyR5mSUvt7hq0X-TVP9gGk2ZQ4NX7fvUsKtPvfjsjPnGJ6bQeXYbFZhJGCbXm7m-5-u7f8LecaWnRcebrGqT3dtry41LbiZofnzoh4GxZDXdXQ1VVSlkqam3AnYmmfvzHmjYjnEfyWvi-iKjNQQoOZEdEIAInNlJZtVURf-EqJO-YT1zcfyhNDRxvmaRKlD_DUy6-hNe45oJU440YfAg=s0-l75-ft"> 
-            <h1 class="force"> Ashcorp Repairs</h1> 
+            <img class="left logo toppp" src="https://preview.redd.it/i-love-these-logos-spoilers-for-both-original-and-rebuilds-v0-eftjy5swogq71.png?width=760&format=png&auto=webp&s=feb776c35730f22384667dd3fef0546728e625aa"> 
+            <h1 class="force">Nerv Repairs</h1> 
             <h3>Reparacions de confiança</h3>
         </div>
-        
     </header>
+    <nav>
+        <div class="navi bambi">
+            <hr>
+            <a href="contact.html">Contacte</a> | 
+            <a href="login.html">Login</a> | 
+            <a href="info.html">Informació</a>
+            <hr>
+            <br>
+            <b>En aquesta pàgina</b> <br>
+            <a href="#who">Qui som</a> | 
+            <a href="#owo">Formulari de contacte</a>
+            <hr>
+        </div>
+    </nav>
+    <body>
+        <h1 id="who">Qui som?</h1>
+        <p>
+            Som una empresa de reparació d'equips informàtics, donant servei a empreses i a clients. Gràcies a noves inversions, ens estem expandin al camp de la programació, actualment donant serveis de Python, LUA i C#  a emprenedors independents i empreses.
+            <br>
+            <img src="https://media.discordapp.net/attachments/1117160107113988186/1499130489686982737/9zptmv2.png?ex=69fd90d1&is=69fc3f51&hm=70f5f9d71b1a96422a2e6a77f2cf7423995e02396ada435aa9167978d54b8ea0&animated=true" height="300px">
+            <h6>Imatge exemple d'un servei realitzat de C#</h6>
+        </p>
+        <br>
+        <div id="owo">
+            <h1 class="bambi">Contacte</h1>
+            <form>
+                <label>Nom de contacte</label><br>
+                <input type="text"> <br> <br>
+                <label>Email de contacte</label><br>
+                <input type="email"> <br> <br>
+                <label>Que ens vols dir</label><br>
+                <input type="text"><br>
+                <input type="checkbox"> <label>Estic d'acord que tota la informació proporcionada és legítima i que no serà utilitzat per spam ni contingut que infringeixi la decència i la moral humana bàsiques :3</label> <br> <br>
+                <input class="kyukurarin" type="submit">
+            </form>
+        </div>
+    </body>
 </html>
